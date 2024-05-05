@@ -52,7 +52,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * CardRepositoryImpl sınıfını CardController sınıfı altında ```Dependency Injection``` yöntemini kullanarak çağırınız
  * Amacımız CRUD işlemlerini tanımlayan endpointler yazmak.
  * [GET]/workintech/cards => tüm card listini dönmeli.
- * [GET]/workintech/cards/byColor/{color} => Verilen renkteki kartları döner.
+ * [GET]/workintech/cards/byColor/{color} => Verilen renkteki kartları dön
  * [POST]/workintech/cards => Bir adet card objesini veritabanına kaydeder.
  * [PUT]/workintech/cards/ => İlgili id deki card objesinin değerlerini yeni gelen data ile değiştirir.
  * [DELETE]/workintech/card/{id} => İlgili id değerindeki card objesini veritabanından siler.
